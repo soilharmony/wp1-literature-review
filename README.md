@@ -2,10 +2,17 @@
 
 This github repo organizes the data collection for the literature review and subsequent data analysis. 
 
+
 The workflow is designed as follows:
 
-- The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO. You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). All people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!
+- The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **All people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Therefore this repository is private and only accessible for members of the soilharmony github organization.
 - The R & Quarto scripts in this repo can collect the information from the googlesheet and analyse them. 
 
--
+
+Using the questionnaire:
+
+- The googlesheet has data validation rules per question type to constrain answer possibilities.
+- All reviewers need to work together in this googlesheet. Only continue working in the columns that you started, please don't alter other people's work.
+- When you want to add a new entry (new publication or a new TF from a publication you did before), select a column and right-click, select "insert 1 column to the right" (like the image below).
+<img width="803" height="650" alt="image" src="https://github.com/user-attachments/assets/e3354e36-130e-43b2-9349-09a09f1e9d61" />
 
