@@ -5,6 +5,8 @@ This github repo organizes the data collection for the literature review and sub
 
 ## Workflow
 
+- Literature search is done via ... (optionally also via R scripts, see suggestion by Hans).
+- PDF's of relevant literature can be saved on the [SoilHarmony sharepoint](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/?CID=98a23ad8-47a8-40d0-b418-0324230c8c4b) in the folder of WP1.
 - The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **All people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Therefore this repository is private and only accessible for members of the soilharmony github organization.
 - The R & Quarto scripts in this repo can collect the information from the googlesheet and analyse them. 
 
