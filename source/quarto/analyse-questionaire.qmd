@@ -1,0 +1,37 @@
+---
+title: "Analyse questionnaire TF/PTF"
+format: 
+  html:
+    embed-resources: true
+---
+
+This quarto report shows how the data from the questionnaire can be extracted and printed. Further analysis of the literature findings can proceed from here onwards.
+
+```{r, echo = F, warning=F, message=F}
+library(tidyverse) |> suppressPackageStartupMessages()
+library(googlesheets4) |> suppressPackageStartupMessages()
+library(DT) |> suppressPackageStartupMessages()
+```
+
+
+Importing the data can be set up with a user-defined function:
+
+```{r, message=F}
+source(here::here("source/R/import-data-questionnaire.R"))
+
+url_sheet <- paste0("https://docs.google.com/spreadsheets/d/",
+                    "13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/",
+                    "edit?usp=sharing")
+
+data <- import_data_questionaire(url_sheet)
+```
+
+We print some selected columns:
+
+```{r, echo = F}
+data %>%
+  select(unique_id, english, data_public, code_public, 
+         tf_ptf, soildescriptor, ref_method, url_pdf) %>%
+  DT::datatable(rownames = F)
+```
+
