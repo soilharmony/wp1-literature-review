@@ -3,16 +3,22 @@
 #' @param gsheet URL to the google sheet of the questionaire
 #' 
 import_data_questionaire <- function(gsheet) {
-  # sheet with general information
+  #browser()
+  # sheet with general information (step 1)
   data_general <- read_sheet(
-    gsheet, sheet = "general",
-    range = "A2:C16", col_names = F
+    gsheet, sheet = "generalQ",
+    col_names = F
   )
-  # transpose to tidy format
-  q_labels  <- data_general[, 1]
-  q_names   <- data_general[, 2] %>% pull()
-  q_answers <- data_general[, 3:ncol(data_general)]
-  q_answers <- as.data.frame(unname(t(q_answers)))
-  colnames(q_answers) <- q_names
-  return(q_answers)
+  
+  # row 2 in the spreadsheet = row 1 in data.frame = question labels
+  col_names  <- as.character(data_general[1, ])
+  col_labels <- as.character(data_general[2, ])
+  
+  data_general <- data_general[-(1:2), ]
+  names(data_general) <- col_names
+  for (i in seq_along(data_general)) {
+    attr(data_general[[i]], "label") <- col_labels[i]
+  }
+  
+  return(data_general)
 }

@@ -21,7 +21,7 @@ source(here::here("source/R/import-data-questionnaire.R"))
 
 url_sheet <- paste0("https://docs.google.com/spreadsheets/d/",
                     "13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/",
-                    "edit?usp=sharing")
+                    "edit?gid=1214981089#gid=1214981089")
 
 data <- import_data_questionaire(url_sheet)
 ```
@@ -31,7 +31,7 @@ We print some selected columns:
 ```{r, echo = F}
 data %>%
   select(unique_id, english, data_public, code_public, 
-         tf_ptf, soildescriptor, ref_method, url_pdf) %>%
+         tf_or_ptf, soildescriptor, ref_method, url_pdf) %>%
   DT::datatable(rownames = F)
 ```
 
