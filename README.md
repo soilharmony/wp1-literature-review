@@ -35,9 +35,10 @@ This github repo organizes the data collection for the literature review and sub
 - When you want to add a new entry (new publication or a new TF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First give your new entry a unique identifier so that other people know it is your entry. 
 <img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
 
-- Spreadsheets in the googlesheet:
-  - **Step 1**: sheetname = `generalQ`. List of questions about literature, data provider and soil samples used.
+- There are several spreadsheets in the googlesheet:
+  - **Step 1**: sheetname = `generalQ`. List of general questions about literature, data provider and soil samples used.
   - **Step 2**: .... to do (1 sheet per soildescriptor?) => the 1st question on each soildescriptor-specific sheet must be a question to select the unique identifier defined in `generalQ` => to prevent we ask again the same questions as in the general sheet
+    - TF_pH: first attempt to a template for step 2: pH-specific questions + generic modeling questions
 
 ## Analysis of the data collected during literature review
 
