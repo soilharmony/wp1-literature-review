@@ -10,8 +10,8 @@ This github repo organizes the data collection for the literature review and sub
 - The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **All people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Therefore this github repository is private and only accessible for members of the soilharmony github organization.
 - The R & Quarto scripts in this repo can collect the information from the googlesheet and analyse them.
 - The review of literature is designed as a two-step process:
-  - c
-  - c
+  - Step 1: gathering general information from a paper (sheet "generalQ").  
+  - Step 2: gathering detailed information from selected TF/PTF. Separate spreadsheets in the same googlesheet => we need a unique identifier to link with step 1
 
 
 ## Using the questionnaire
