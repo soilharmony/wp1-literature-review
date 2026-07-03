@@ -11,10 +11,10 @@ This github repo organizes the data collection for the literature review and sub
 - The review of literature is designed as a two-step process:
   - Step 1: gathering general information from a paper (sheet "generalQ"). The goal is to deliver the following:
     - Results for WP1:
-    -   *inventory of existing TF and PTF documented as MS7 at M9. The Milestone serves as a preliminary stocktaking (i.e. structured compilation of available data) without interpretation*
-    -   *D1.2 at M18 will provide a comprehensive analysis of the collected material. Beyond synthesis, this deliverable will focus on gaps identification and critical assessment*
+        - *inventory of existing TF and PTF documented as MS7 at M9. The Milestone serves as a preliminary stocktaking (i.e. structured compilation of available data) without interpretation*
+        - *D1.2 at M18 will provide a comprehensive analysis of the collected material. Beyond synthesis, this deliverable will focus on gaps identification and critical assessment*
     - Input needs of WP6:
-    -   *soil TF and PTF database with all project (collected and collated) data deposited in a persistent online repository (D6.1 at M54) and available to the Soil Health Portal*
+        - *soil TF and PTF database with all project (collected and collated) data deposited in a persistent online repository (D6.1 at M54) and available to the Soil Health Portal*
   - Step 2: gathering detailed information from selected TF/PTF. Separate spreadsheets in the same googlesheet => we need a unique identifier to link with step 1
 - The R & Quarto scripts in this repo can collect the information from the googlesheet and analyse them.
 
