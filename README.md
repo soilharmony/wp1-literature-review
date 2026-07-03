@@ -1,4 +1,4 @@
-# SoilHarmony: :book: literature review TF & PTF
+# SoilHarmony: literature review TF & PTF :book:
 
 This github repo organizes the data collection for the literature review and subsequent data analysis. 
 
@@ -30,8 +30,9 @@ This github repo organizes the data collection for the literature review and sub
   - several candidate TFs for the same data (eg. linear regression & machine-learning models)
   - ... combinations of the above
   - The format of the questionnaire allows only to report on 1 TF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication. Do not include review papers in this questionnaire; use review papers only to find original publications that your literature search missed.
-- When you want to add a new entry (new publication or a new TF from a publication you did before), select a row and right-click, then select "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First give your new entry a unique identifier. 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/a85acc25-489b-428b-8721-824ad76d7434" />
+- When you want to add a new entry (new publication or a new TF from a publication you did before), select a row and right-click, then select "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First give your new entry a unique identifier so that other people know it is your entry. 
+<img width="949" height="523" alt="image" src="https://github.com/user-attachments/assets/8443f95f-c5d0-441e-80a2-d972ad5a21c3" />
+
 
 ## Analysis of the data collected during literature review
 
