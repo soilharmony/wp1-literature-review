@@ -31,8 +31,7 @@ This github repo organizes the data collection for the literature review and sub
   - ... combinations of the above
   - The format of the questionnaire allows only to report on 1 TF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication. Do not include review papers in this questionnaire; use review papers only to find original publications that your literature search missed.
 - When you want to add a new entry (new publication or a new TF from a publication you did before), select a row and right-click, then select "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First give your new entry a unique identifier so that other people know it is your entry. 
-<img width="949" height="523" alt="image" src="https://github.com/user-attachments/assets/8443f95f-c5d0-441e-80a2-d972ad5a21c3" />
-
+<img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
 
 ## Analysis of the data collected during literature review
 
