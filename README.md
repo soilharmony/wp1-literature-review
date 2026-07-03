@@ -34,6 +34,7 @@ This github repo organizes the data collection for the literature review and sub
   - The format of the questionnaire allows only to report on 1 TF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication. Do not include review papers in this questionnaire; use review papers only to find original publications that your literature search missed.
 - When you want to add a new entry (new publication or a new TF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First give your new entry a unique identifier so that other people know it is your entry. 
 <img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
+
 - Spreadsheets in the googlesheet:
   - **Step 1**: sheetname = `generalQ`. List of questions about literature, data provider and soil samples used.
   - **Step 2**: .... to do (1 sheet per soildescriptor?) => the 1st question on each soildescriptor-specific sheet must be a question to select the unique identifier defined in `generalQ`
