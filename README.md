@@ -37,7 +37,7 @@ This github repo organizes the data collection for the literature review and sub
 
 - Spreadsheets in the googlesheet:
   - **Step 1**: sheetname = `generalQ`. List of questions about literature, data provider and soil samples used.
-  - **Step 2**: .... to do (1 sheet per soildescriptor?) => the 1st question on each soildescriptor-specific sheet must be a question to select the unique identifier defined in `generalQ`
+  - **Step 2**: .... to do (1 sheet per soildescriptor?) => the 1st question on each soildescriptor-specific sheet must be a question to select the unique identifier defined in `generalQ` => to prevent we ask again the same questions as in the general sheet
 
 ## Analysis of the data collected during literature review
 
