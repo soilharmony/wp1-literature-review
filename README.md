@@ -42,4 +42,4 @@ This github repo organizes the data collection for the literature review and sub
 
 ## Analysis of the data collected during literature review
 
-The R & Quarto scripts in this repo can collect the information from the googlesheet and analyse them.
+The R & Quarto scripts in this repo can collect the information from the googlesheet and analyse them. Currently the `source` folder contains only a simple R function to import the spreadsheet information and a quarto script to demonstrate its use. We can continue from here onwards.
