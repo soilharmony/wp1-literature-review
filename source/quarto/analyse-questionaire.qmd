@@ -5,18 +5,19 @@ format:
     embed-resources: true
 ---
 
-This quarto report shows how the data from the questionnaire can be extracted and printed. Further analysis of the literature findings can proceed from here onwards.
-
-```{r, echo = F, warning=F, message=F}
+```{r, echo=F, warning=F, message=F}
 library(tidyverse) |> suppressPackageStartupMessages()
-library(googlesheets4) |> suppressPackageStartupMessages()
-library(DT) |> suppressPackageStartupMessages()
 ```
 
-
-Importing the data can be set up with a user-defined function:
+This quarto report shows how the data from the questionnaire can be extracted and printed. Further analysis of the literature findings can proceed from here onwards. The data are stored in a googlesheets and you can use the `googlesheets4` package to extract them. Importing the data can be set up with a user-defined wrapper function.
 
 ```{r, message=F}
+library(googlesheets4) |> suppressPackageStartupMessages()
+
+# currently no authorization is required
+# this will be changed once we are collecting real data
+gs4_deauth()
+
 source(here::here("source/R/import-data-questionnaire.R"))
 
 url_sheet <- paste0("https://docs.google.com/spreadsheets/d/",
@@ -26,12 +27,15 @@ url_sheet <- paste0("https://docs.google.com/spreadsheets/d/",
 data <- import_data_questionaire(url_sheet)
 ```
 
+<br>
+
 We print some selected columns:
 
 ```{r, echo = F}
 data %>%
-  select(unique_id, english, data_public, code_public, 
-         tf_or_ptf, soildescriptor, ref_method, url_pdf) %>%
+  select(unique_id, email, english, code_public, 
+         tf_or_ptf, soildescriptor, ref_method, wrb_soiltype,
+         url_pdf) %>%
   DT::datatable(rownames = F)
 ```
 
