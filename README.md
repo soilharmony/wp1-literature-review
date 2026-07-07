@@ -21,7 +21,7 @@ This github repo organizes the data collection for the literature review and sub
 
 ## Using the questionnaire
 
-- The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **All people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Therefore this github repository is private and only accessible for members of the soilharmony github organization. 
+- The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **Currently all people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Once we have an agreed-upon version of the questionnaire, we will ask the ICT service of EVINBO to give access to a selected list of people within the SoilHarmony consortium who will be involved in the review.
 - The googlesheet has data validation rules per question type to constrain answer possibilities.
 - All reviewers need to work together in this googlesheet. Only continue working in the rows that you started, please don't alter other people's work.
 - You can always continue at a later time, your answers will be saved.
