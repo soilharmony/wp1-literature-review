@@ -1,6 +1,6 @@
 # SoilHarmony: literature review TF & PTF :book:
 
-As part of the [Soilharmony project](https://doi.org/10.3030/101296615), this repository maintains the prelimiaary results of a literature study on availability
+As part of the [Soilharmony project](https://doi.org/10.3030/101296615), this repository maintains the preliminary results of a literature study on availability
 of research about (pedo) transfer functions. The study focusses on availability of data, behind any published articles and how this data is organised.
 
 ## Workflow
