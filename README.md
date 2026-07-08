@@ -1,7 +1,7 @@
 # SoilHarmony: literature review TF & PTF :book:
 
-This github repo organizes the data collection for the literature review and subsequent data analysis. 
-
+As part of the [Soilharmony project](https://doi.org/10.3030/101296615), this repository maintains the preliminary results of a literature study on availability
+of research about (pedo) transfer functions. The study focusses on availability of data, behind any published articles and how this data is organised.
 
 ## Workflow
 
@@ -45,3 +45,7 @@ This github repo organizes the data collection for the literature review and sub
 ## Analysis of the data collected during literature review
 
 The R & Quarto scripts in this repo can collect the information from the googlesheet and analyse them. Currently the `source` folder contains only a simple R function to import the spreadsheet information and a quarto script to demonstrate its use. We can continue from here onwards.
+
+---
+
+The project [Towards a harmonised pan-European monitoring of soil health descriptors](https://doi.org/10.3030/101296615), also known as `SOILHARMONY`, receives funding from the European Union’s HORIZON Innovation Actions 2022 under grant agreement No. 101296615.
