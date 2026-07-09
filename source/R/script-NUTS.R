@@ -11,7 +11,13 @@ NUTS1 <- NUTS2021_NUTS2024 %>%
     `NUTS level` == 1,
     `NUTS label` != "Extra-Regio NUTS 1"
   ) %>%
-  select(`NUTS Code`) %>%
+  mutate(
+    NUTS1_code = paste0(`NUTS Code`," (",`NUTS label`,')'),
+    # multiple selections separated by comma in spreadsheet
+    # => no comma's in text allowed
+    NUTS1_code = gsub(", ", " ", NUTS1_code)
+  ) %>%
+  select(NUTS1_code) %>%
   clipr::write_clip()
 
 NUTS2 <- NUTS2021_NUTS2024 %>%
@@ -19,7 +25,13 @@ NUTS2 <- NUTS2021_NUTS2024 %>%
     `NUTS level` == 2,
     `NUTS label` != "Extra-Regio NUTS 2"
   ) %>%
-  select(`NUTS Code`) %>%
+  mutate(
+    NUTS2_code = paste0(`NUTS Code`," (",`NUTS label`,')'),
+    # multiple selections separated by comma in spreadsheet
+    # => no comma's in text allowed
+    NUTS2_code = gsub(", ", " ", NUTS2_code)
+  ) %>%
+  select(NUTS2_code) %>%
   clipr::write_clip()
 
 NUTS3 <- NUTS2021_NUTS2024 %>%
@@ -27,7 +39,13 @@ NUTS3 <- NUTS2021_NUTS2024 %>%
     `NUTS level` == 3,
     `NUTS label` != "Extra-Regio NUTS 3"
   ) %>%
-  select(`NUTS Code`) %>%
+  mutate(
+    NUTS3_code = paste0(`NUTS Code`," (",`NUTS label`,')'),
+    # multiple selections separated by comma in spreadsheet
+    # => no comma's in text allowed
+    NUTS3_code = gsub(", ", " ", NUTS3_code)
+  ) %>%
+  select(NUTS3_code) %>%
   clipr::write_clip()
 
 
