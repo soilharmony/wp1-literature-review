@@ -6,7 +6,7 @@ of research about (pedo) transfer functions. The study focusses on availability 
 ## Workflow
 
 - Literature search is done via ... ???? (optionally also via R scripts, see suggestion by Hans).
-- PDF's of relevant literature can be saved on the [SoilHarmony sharepoint](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/?CID=98a23ad8-47a8-40d0-b418-0324230c8c4b) in the folder of WP1. Please use the following rule when naming the PDF: author_year eg.: `Taubner_2009.pdf`, `Szabo_2024.pdf`.
+- PDF's of relevant literature can be saved on the [SoilHarmony sharepoint](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/?CID=98a23ad8-47a8-40d0-b418-0324230c8c4b) in the folder of WP1. Please use the following rule when naming the PDF: author_year eg.: `Taubner_2009.pdf`, `Szabo_2024.pdf`. When there is supplementary material associated with a PDF, please upload it as well, either appended to the original PDF or as separate documents.
 - The review of literature is designed as a two-step process:
   - **Step 1**: gathering general information from a paper or report on TF/PTF. The goal is to deliver the following:
     - Results for WP1:
@@ -24,6 +24,7 @@ of research about (pedo) transfer functions. The study focusses on availability 
 - The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **Currently all people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Once we have an agreed-upon version of the questionnaire, we will remove the mock trials and ask the ICT service of EVINBO to give access to a selected list of people within the SoilHarmony consortium who will be involved in the review.
 - Only EVINBO people have edit rights on the questions and answer options. All other users have edit rights to add new entries in the questionnaire. For suggestions, bugs, and other comments on the questionnaire: please file an issue in this github repo [here](https://github.com/soilharmony/wp1-literature-review/issues).
 - The googlesheet has data validation rules per question type to constrain answer possibilities.
+- Not all questions are mandatory and not all publications will contain answers to all questions. Mandatory questions are indicated with a _Y_ in row 5 of the spreadsheet. Please be as complete as possible.
 - All data providers need to work together in this googlesheet. Only continue working in the rows that you started, please don't alter other people's work.
 - You can always continue at a later time, your answers will be saved.
 - Every row (entry) in the questionnaire is meant to represent a single TF or PTF. One publication may contain several TF or PTF, for example:
