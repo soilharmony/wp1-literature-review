@@ -7,6 +7,16 @@ library(readxl)
 # file from Ronald Kolcsar (EU + other countries of interest)
 NUTSplus <- read_excel("data/NUTSplus_helpersheet-options.xlsx")
 
+NUTS0 <- NUTSplus %>%
+  filter(!is.na(NUTS0)) %>%
+  mutate(
+    # multiple selections separated by comma in spreadsheet
+    # => no comma's in text allowed
+    NUTS0_code = gsub(", ", " ", NUTS0)
+  ) %>%
+  select(NUTS0_code) %>%
+  clipr::write_clip()
+
 NUTS1 <- NUTSplus %>%
   filter(!is.na(NUTS1)) %>%
   mutate(
