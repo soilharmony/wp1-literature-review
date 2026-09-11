@@ -35,9 +35,17 @@ of research about (pedo) transfer functions. The study focusses on availability 
   - The format of the questionnaire allows only to report on 1 TF or PTF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication. Do not include review papers in this questionnaire; use review papers only to find original publications that your literature search missed.
 - All data providers need to work together in this googlesheet. Only continue working in the rows that you started, please don't alter other people's work.
 - You can always continue at a later time, your answers will be saved.
-- When you want to add a new entry (new publication or a new TF or PTF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the following format: the name of the corresponding uploaded PDF followed by a sequential entry number, i.e. author_year_entry_number, e.g.: `Taubner_2009_001`, `Szabo_2024_001`. This ensures that other people can identify which entry is yours. To prevent other people editing the rows you started, please restrict the editing rights like indicated in the second image below.
-<img width="805" height="318" alt="image" src="https://github.com/user-attachments/assets/302f4014-d42a-41a5-9670-68c4c6629c7a" />
-<img width="869" height="429" alt="image" src="https://github.com/user-attachments/assets/addb4f89-7f49-4e00-9efc-92603fe8aabf" />
+- When you want to add a new entry (new publication or a new TF or PTF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (Figure 1). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the following format: the name of the corresponding uploaded PDF followed by a sequential entry number, i.e. author_year_entry_number, e.g.: `Taubner_2009_001`, `Szabo_2024_001`. This ensures that other people can identify which entry is yours. To prevent other people editing the rows you started, please restrict the editing rights like indicated in Figure 2 below.
+
+<figure>
+  <img width="805" height="318" alt="image" src="https://github.com/user-attachments/assets/302f4014-d42a-41a5-9670-68c4c6629c7a" />
+  <figcaption>Figure 1: Start a new entry in the questionnaire.</figcaption>
+</figure>
+
+<figure>
+  <img width="869" height="429" alt="image" src="https://github.com/user-attachments/assets/addb4f89-7f49-4e00-9efc-92603fe8aabf" />
+  <figcaption>Figure 2: Limit the editing rights to a new row you started.</figcaption>
+</figure>
 
 - The Google Sheet contains several worksheets:
   - `generalQ`: General questions about literature, data provider and soil samples used. See **Step 1** above.
