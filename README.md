@@ -6,7 +6,7 @@ of research about (pedo) transfer functions. The study focusses on availability 
 ## Workflow
 
 - Literature search is done via ... ???? (optionally also via R scripts, see suggestion by Hans).
-- PDF's of relevant literature can be saved on the [SoilHarmony sharepoint](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/?CID=98a23ad8-47a8-40d0-b418-0324230c8c4b) in the folder of WP1. Please use the following rule when naming the PDF: author_year eg.: `Taubner_2009.pdf`, `Szabo_2024.pdf`. When there is supplementary material associated with a PDF, please upload it as well, either appended to the original PDF or as separate documents.
+- PDF's of relevant literature can be saved on the [SoilHarmony sharepoint](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/?CID=98a23ad8-47a8-40d0-b418-0324230c8c4b) in the folder of WP1. Please use the following rule when naming the PDF: author_year eg.: `Taubner_etal_2009.pdf`, `Roman-Dobarco_etal_2019.pdf`. When there is supplementary material associated with a PDF, please upload it as well, either appended to the original PDF or as separate documents.
 - The review of literature is designed as a two-step process:
   - **Step 1**: gathering general information from a paper or report on TF/PTF. The goal is to deliver the following:
     - Results for WP1:
@@ -35,7 +35,7 @@ of research about (pedo) transfer functions. The study focusses on availability 
   - several candidate TFs or PTFs for the same data (eg. linear regression & machine-learning models)
   - ... combinations of the above
   - The format of the questionnaire allows only to report on 1 TF or PTF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication. Do not include review papers in this questionnaire; use review papers only to find original publications that your literature search missed.
-  - When you want to add a new entry (new publication or a new TF or PTF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the following format: the name of the corresponding uploaded PDF followed by a sequential entry number, i.e. author_year_entry_number, e.g.: `Taubner_2009_001`, `Szabo_2024_001`. This ensures that other people can identify which entry is yours. 
+  - When you want to add a new entry (new publication or a new TF or PTF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the following format: the name of the corresponding uploaded PDF followed by a sequential entry number, i.e. author_year_entry_number, e.g.: `Taubner_etal_2009_001`, `Roman-Dobarco_etal_2019_001`. This ensures that other people can identify which entry is yours. 
 <img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
 
 - The Google Sheet contains several worksheets:
