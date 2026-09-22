@@ -22,11 +22,9 @@ of research about (pedo) transfer functions. The study focusses on availability 
 ## Using the questionnaire
 
 - The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **Currently all people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Once we have an agreed-upon version of the questionnaire, we will remove the mock trials and ask the ICT service of EVINBO to give access to a selected list of people within the SoilHarmony consortium who will be involved in the review.
-- Only EVINBO people have edit rights on the questions and answer options. All other users have edit rights to add new entries in the questionnaire. For suggestions, bugs, and other comments on the questionnaire: please file an issue in this github repo [here](https://github.com/soilharmony/wp1-literature-review/issues).
+- Only WP5 collaborators have edit rights on the questions and answer options. All other users have edit rights to add new entries in the questionnaire. For suggestions, bugs, and other comments on the questionnaire: please file an issue in this github repo [here](https://github.com/soilharmony/wp1-literature-review/issues) or inform us by email (szabo.brigitta@atk.hun-ren.hu).
 - The googlesheet has data validation rules per question type to constrain answer possibilities.
-- Not all questions are mandatory and not all publications will contain answers to all questions. Mandatory questions are indicated with a _Y_ in row 5 of the spreadsheet. Please be as complete as possible.
-- All data providers need to work together in this googlesheet. Only continue working in the rows that you started, please don't alter other people's work.
-- You can always continue at a later time, your answers will be saved.
+- Not all questions are mandatory and not all publications will contain answers to all questions. Mandatory questions are indicated with a _Y_ in row 6 of the spreadsheet. Please be as complete as possible.
 - Every row (entry) in the questionnaire is meant to represent a single TF or PTF. One publication may contain several TF or PTF, for example:
   - several TFs or PTFs for different soil descriptors
   - several TFs that map different non-reference methods to the same reference method
@@ -35,14 +33,22 @@ of research about (pedo) transfer functions. The study focusses on availability 
   - several candidate TFs or PTFs for the same data (eg. linear regression & machine-learning models)
   - ... combinations of the above
   - The format of the questionnaire allows only to report on 1 TF or PTF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication. Do not include review papers in this questionnaire; use review papers only to find original publications that your literature search missed.
-  - When you want to add a new entry (new publication or a new TF or PTF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the following format: the name of the corresponding uploaded PDF followed by a sequential entry number, i.e. author_year_entry_number, e.g.: `Taubner_2009_001`, `Szabo_2024_001`. This ensures that other people can identify which entry is yours. 
-<img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
+- All data providers need to work together in this googlesheet. Only continue working in the rows that you started, please don't alter other people's work.
+- You can always continue at a later time, your answers will be saved.
+- When you want to add a new entry (new publication or a new TF or PTF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (Figure 1). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the following format: the name of the corresponding uploaded PDF followed by a sequential entry number, i.e. author_year_entry_number, e.g.: `Taubner_2009_001`, `Szabo_2024_001`. This ensures that other people can identify which entry is yours. To prevent other people editing the rows you started, please restrict the editing rights like indicated in Figure 2 below.
+
+<img width="800" height="318" alt="image" src="https://github.com/user-attachments/assets/302f4014-d42a-41a5-9670-68c4c6629c7a" />
+
+_Figure 1: Start a new entry in the questionnaire._
+
+<img width="800" height="429" alt="image" src="https://github.com/user-attachments/assets/addb4f89-7f49-4e00-9efc-92603fe8aabf" />
+
+_Figure 2: Limit the editing rights to a new row you started._
 
 - The Google Sheet contains several worksheets:
-  - `generalQ`: General questions about literature, data provider and soil samples used.
-  - `TF_pH`: A first draft of the Step 2 template for transfer functions (TFs), including pH-specific questions and generic modeling questions. This serves as an example of a soil descriptor-specific template that can be adapted to create templates for other descriptors (TF_PSD, TF_BD, TF_OC, TF_CaCO3, TF_Na, TF_K, TF_Ca, TF_Mg, TF_CEC, TF_EC, TF_P, TF_N, TF_HM (heavy metals), TF_WRAC (water retention and air capacity), TF_Ks (saturated hydraulic conductivity)), based on suggestions from WP2 experts. The 1st question on each soildescriptor-specific worksheet should ask for the unique identifier defined in `generalQ` to avoid repeating questions already answered in the `generalQ` worksheet.
-  - `PTF_SHP`: A first draft of the Step 2 template for pedotransfer functions (PTFs), including specific questions on soil hydraulic properties (SHPs), such as the soil water retention curve and saturated hydraulic conductivity, together with generic modeling questions.
-  - `helpersheet-options`: Lists the predifined response options for the questions in the `generalQ`, `TF_pH` and `PTF_SHP` worksheets. Using predefined response options is recommended to ensure consistent data entry and facilitate analysis of the collected information.
+  - `generalQ`: General questions about literature, data provider and soil samples used. See **Step 1** above.
+  - `helpersheet-options`: Lists the predifined response options for the questions in the other worksheets. Using predefined response options is recommended to ensure consistent data entry and facilitate analysis of the collected information.
+  - Currently there are some draft sheets for soildescriptor-specific questionnaires (pH, SOC, CaCO3, etc.) but these are hidden until we continue with **Step 2**.
 
 ## Analysis of the data collected during literature review
 
