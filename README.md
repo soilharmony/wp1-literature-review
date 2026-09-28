@@ -61,12 +61,12 @@ A literature search of online available published articles has been performed by
 
 ## Using the questionnaire
 
-- The questionnaire is a simple Google Sheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **Currently all people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!**
+- The questionnaire is a simple Google Sheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **From xx/10/2026 this google sheet will only be accessible to people from the SoilHarmony consortium involved in the literature review.**
 - Only EVINBO people have edit rights to the questions and answer options. All other users have edit rights to add new entries to the questionnaire. For suggestions, bugs, and other comments on the questionnaire: please file an issue in this GitHub repo [here](https://github.com/soilharmony/wp1-literature-review/issues).
 - The Google Sheet has data validation rules per question type to constrain answer possibilities.
 - There are some completed rows provided as examples, which might help clarify the information needed.
 - Not all questions are mandatory, and not all publications will contain answers to all questions. Mandatory questions are indicated with a _Y_ in row 5 of the spreadsheet. Please be as complete as possible.
-- All data providers need to work together in this Google Sheet. Only continue working in the rows that you started, please don't alter other people's work.
+- All data providers can work together in this Google Sheet. Only continue working in the rows that you started, please don't alter other people's work.
 - You can always continue at a later time, your answers will be saved.
 - Every row (entry) in the questionnaire is meant to represent a single TF or PTF. One publication may contain several TFs or PTFs, for example:
   - several TFs or PTFs for different soil descriptors
@@ -80,7 +80,7 @@ A literature search of online available published articles has been performed by
 <img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
 
 - The Google Sheet contains several worksheets:
-  - `instructions`: Information on how to get help if something is not clear in the table.
+  - `instructions`: Information on how to get help if something is not clear in the table. If you prefer to work in your own individual google sheet, contact information is available for you to ask for a separate link.
   - `generalQ`: General questions about literature, data provider and soil samples used. 
   - `helpersheet-options`: Lists the predefined response options for the questions in the `generalQ` worksheet. Using predefined response options is recommended to ensure consistent data entry and facilitate analysis of the collected information.
 
