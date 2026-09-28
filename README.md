@@ -5,10 +5,7 @@ of transfer and pedotransfer functions. The study focuses on the availability of
 
 ## Workflow
 
-A literature search of online available published articles has been performed by AU and CRA-W. Contributors to Tasks 1.2 and 1.3 are asked to:
-
-1. review the collected articles, and
-2. provide country-specific grey literature on TFs and PTFs by following the workflow below.
+A literature search of online available published articles has been performed by AU and CRA-W. Contributors to Tasks 1.2 and 1.3 are asked to: i) review the collected articles, and ii) provide country-specific grey literature on TFs and PTFs by following the workflow below.
 
 **Suggested workflow for contributors:**
 
@@ -40,23 +37,23 @@ A literature search of online available published articles has been performed by
 
 4. If the paper is relevant to Tasks 1.2 and 1.3, enter the information from the paper into this template: [generalQ](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?pli=1&gid=1214981089#gid=1214981089), by answering the questions listed in the columns.
 
-   - Please set editing roles.
+   - Many people can work together in this Google Sheet. When you start a new entry, please restrict the editing rights to yourself so that others do not accidentally edit your rows. If you prefer to work in a separate Google Sheet, please follow the information in cell A10 of the `instructions` sheet. 
 
 5. After screening all your assigned papers:
 
    - Upload any country-specific grey literature on TFs and PTFs, or national papers from local-language journals, that you know of and that were not included in the list.
    - Enter the relevant information from these publications or documents into the same template.
 
-6. After finishing the compilation of the template, send an email to [lucas.gomes@agro.au.dk](mailto:lucas.gomes@agro.au.dk) and [szabo.brigitta@atk.hun-ren.hu](mailto:szabo.brigitta@atk.hun-ren.hu).
+6. After finishing the compilation of the template, send an email to leaders of Task 1.2 and Task 1.3.
 
 **Please consider the following during compilation:**
 
 - TFs and PTFs based exclusively on data collected outside Europe will be reviewed at a later stage.
-- If a paper is not in English, inform [lucas.gomes@agro.au.dk](mailto:lucas.gomes@agro.au.dk) and [szabo.brigitta@atk.hun-ren.hu](mailto:szabo.brigitta@atk.hun-ren.hu) and proceed to the next paper assigned to you.
+- If a paper is not in English, inform leaders of Task 1.2 and Task 1.3 and proceed to the next paper assigned to you.
 - Each partner is responsible for uploading grey literature from their country.
 - The list of measurement methods may not include every method reported in the literature. If the relevant method is not listed, select **“Other.”**
 - Add any comments concerning the literature in column AM.
-- If you cannot screen your assigned papers because you have a large amount of country-specific grey literature on TFs and PTFs to review, inform [lucas.gomes@agro.au.dk](mailto:lucas.gomes@agro.au.dk) and [szabo.brigitta@atk.hun-ren.hu](mailto:szabo.brigitta@atk.hun-ren.hu).
+- If you cannot screen your assigned papers because you have a large amount of country-specific grey literature on TFs and PTFs to review, inform leaders of Task 1.2 and Task 1.3.
 - This is the first screening phase. Based on the results, we will assess whether a further literature search is needed.
 
 ## Using the questionnaire
