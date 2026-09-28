@@ -1,48 +1,120 @@
 # SoilHarmony: literature review TF & PTF :book:
 
-As part of the [Soilharmony project](https://doi.org/10.3030/101296615), this repository maintains the preliminary results of a literature study on availability
-of research about (pedo) transfer functions. The study focusses on availability of data, behind any published articles and how this data is organised.
+As part of the [SoilHarmony project](https://doi.org/10.3030/101296615), this repository maintains the preliminary results of a literature study on the availability
+of transfer and pedotransfer functions. The study focuses on the availability of method-to-method transfer functions and hydraulic pedotransfer functions. Its goal is to extract information from published articles and grey literature to provide a comprehensive analysis of the collected functions.
 
 ## Workflow
 
-- Literature search is done via ... ???? (optionally also via R scripts, see suggestion by Hans).
-- PDF's of relevant literature can be saved on the [SoilHarmony sharepoint](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/?CID=98a23ad8-47a8-40d0-b418-0324230c8c4b) in the folder of WP1. Please use the following rule when naming the PDF: author_year eg.: `Taubner_2009.pdf`, `Szabo_2024.pdf`. When there is supplementary material associated with a PDF, please upload it as well, either appended to the original PDF or as separate documents.
-- The review of literature is designed as a two-step process:
-  - **Step 1**: gathering general information from a paper or report on TF/PTF. The goal is to deliver the following:
-    - Results for WP1:
-        - *inventory of existing TF and PTF documented as MS7 at M9. The Milestone serves as a preliminary stocktaking (i.e. structured compilation of available data) without interpretation*
-        - *D1.2 at M18 will provide a comprehensive analysis of the collected material. Beyond synthesis, this deliverable will focus on gaps identification and critical assessment*
-    - Input needs of WP6:
-        - *soil TF and PTF database with all project (collected and collated) data deposited in a persistent online repository (D6.1 at M54) and available to the Soil Health Portal*
-  - **Step 2**: gathering detailed information for the preselection of TF/PTF. The goal is to deliver the following:
-    - Results for WP5:
-      - *report containing the list of preselected existing equivalent methods and TF/PTF, with recommendations on the domain of applicability and potential adjustments of TF/PTF (D5.2 at M24)* These selected TFs and PTFs + the new ones derived by WP2 will be validated from statistical point of view on WP4 samples.
-- A questionnaire is designed to gather the relevant information from the literature. 
+A literature search of online available published articles has been performed by AU and CRA-W. Contributors to Tasks 1.2 and 1.3 are asked to:
+
+1. review the collected articles, and
+2. provide country-specific grey literature on TFs and PTFs by following the workflow below.
+
+**Suggested workflow for contributors:**
+
+1. Check which papers have been assigned to you here: [`papers_assigned_to_contributors.xlsx`](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FGAPSOILHARMONY%2FDocuments%20partages%2FSOILHARMONY%20%2D%20MANAGEMENT%2F2%2D%20WPs%2F1%2D%20WP1%2Finput%5Ffrom%5Fpartners%2FD1%2E2&sortField=Modified&isAscending=false&viewid=2cd3e6db%2D7df4%2D4dc2%2Da69f%2D6d8bb17be9a9&csf=1&CID=5f62b180%2Dd480%2D4b31%2Dba64%2Dbe3f0c1b78aa&FolderCTID=0x0120009F9034CD002E6C4B9B8DA870908DDFF9).
+
+2. Upload your assigned papers as PDFs to the appropriate folder assigned to your institute:
+
+   - For TFs: [TF folder](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FGAPSOILHARMONY%2FDocuments%20partages%2FSOILHARMONY%20%2D%20MANAGEMENT%2F2%2D%20WPs%2F1%2D%20WP1%2Finput%5Ffrom%5Fpartners%2FD1%2E2%2FTFs&viewid=2cd3e6db%2D7df4%2D4dc2%2Da69f%2D6d8bb17be9a9&csf=1&CID=5f62b180%2Dd480%2D4b31%2Dba64%2Dbe3f0c1b78aa&FolderCTID=0x0120009F9034CD002E6C4B9B8DA870908DDFF9)
+   - For PTFs: [PTF folder](https://erdyn.sharepoint.com/sites/GAPSOILHARMONY/Documents%20partages/Forms/AllItems.aspx?id=%2Fsites%2FGAPSOILHARMONY%2FDocuments%20partages%2FSOILHARMONY%20%2D%20MANAGEMENT%2F2%2D%20WPs%2F1%2D%20WP1%2Finput%5Ffrom%5Fpartners%2FD1%2E2%2FPTFs&viewid=2cd3e6db%2D7df4%2D4dc2%2Da69f%2D6d8bb17be9a9&csf=1&CID=5f62b180%2Dd480%2D4b31%2Dba64%2Dbe3f0c1b78aa&FolderCTID=0x0120009F9034CD002E6C4B9B8DA870908DDFF9)
+
+   Name the uploaded reviewed paper using the following format: document type, authors of the corresponding uploaded PDF, and year of publication, i.e. `type_author_year`.
+
+   Use `RP` for review papers and `GL` for grey literature. For example: `RP_Kabala_etal_2016`, `RP_Roman-Dobarco_etal_2019`, `GL_White_etal_2001`.
+
+   If a PDF has supplementary material, please upload it as well, either appended to the PDF or as a separate file, e.g. `RP_Roman-Dobarco_etal_2019_SM`.
+
+3. Check whether the paper is relevant to Tasks 1.2 and 1.3.
+
+   Does the paper derive a TF or PTF using data from Europe?
+
+   - If yes, mark it as **“New TF/PTF derived using European soil data - Relevant”** in the list of assigned papers and complete the template according to the instructions below.
+   - If not, select one of the following options in the list of assigned papers:
+     - **“New TF/PTF derived using soil data from outside Europe - Not relevant at this stage”**
+     - **“Review paper - Not relevant”**
+     - **“Existing TF/PTF applied or validated, but no new TF/PTF derived - Not relevant”**
+     - **“No TF/PTF addressed - Not relevant”**
+
+   Do not enter information from non-relevant papers in the template. Proceed to the next paper.
+
+4. If the paper is relevant to Tasks 1.2 and 1.3, enter the information from the paper into this template: [generalQ](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?pli=1&gid=1214981089#gid=1214981089), by answering the questions listed in the columns.
+
+   - Please set editing roles.
+
+5. After screening all your assigned papers:
+
+   - Upload any country-specific grey literature on TFs and PTFs, or national papers from local-language journals, that you know of and that were not included in the list.
+   - Enter the relevant information from these publications or documents into the same template.
+
+6. After finishing the compilation of the template, send an email to [lucas.gomes@agro.au.dk](mailto:lucas.gomes@agro.au.dk) and [szabo.brigitta@atk.hun-ren.hu](mailto:szabo.brigitta@atk.hun-ren.hu).
+
+**Please consider the following during compilation:**
+
+- TFs and PTFs based exclusively on data collected outside Europe will be reviewed at a later stage.
+- If a paper is not in English, inform [lucas.gomes@agro.au.dk](mailto:lucas.gomes@agro.au.dk) and [szabo.brigitta@atk.hun-ren.hu](mailto:szabo.brigitta@atk.hun-ren.hu) and proceed to the next paper assigned to you.
+- Each partner is responsible for uploading grey literature from their country.
+- The list of measurement methods may not include every method reported in the literature. If the relevant method is not listed, select **“Other.”**
+- Add any comments concerning the literature in column AM.
+- If you cannot screen your assigned papers because you have a large amount of country-specific grey literature on TFs and PTFs to review, inform [lucas.gomes@agro.au.dk](mailto:lucas.gomes@agro.au.dk) and [szabo.brigitta@atk.hun-ren.hu](mailto:szabo.brigitta@atk.hun-ren.hu).
+- This is the first screening phase. Based on the results, we will assess whether a further literature search is needed.
 
 ## Using the questionnaire
 
-- The questionnaire is a simple googlesheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **Currently all people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!** Once we have an agreed-upon version of the questionnaire, we will remove the mock trials and ask the ICT service of EVINBO to give access to a selected list of people within the SoilHarmony consortium who will be involved in the review.
-- Only EVINBO people have edit rights on the questions and answer options. All other users have edit rights to add new entries in the questionnaire. For suggestions, bugs, and other comments on the questionnaire: please file an issue in this github repo [here](https://github.com/soilharmony/wp1-literature-review/issues).
-- The googlesheet has data validation rules per question type to constrain answer possibilities.
-- Not all questions are mandatory and not all publications will contain answers to all questions. Mandatory questions are indicated with a _Y_ in row 5 of the spreadsheet. Please be as complete as possible.
-- All data providers need to work together in this googlesheet. Only continue working in the rows that you started, please don't alter other people's work.
+- The questionnaire is a simple Google Sheet hosted in the Google Drive of EVINBO (partner in the SoilHarmony consortium). You can access it [via this link](https://docs.google.com/spreadsheets/d/13Qcj2Eg_oI9aUy7vL_34XdF-oucMppBdhk2w70AQMHk/edit?usp=sharing). **Currently all people with the link have read and write access, so please don't share the link outside the SoilHarmony consortium!**
+- Only EVINBO people have edit rights to the questions and answer options. All other users have edit rights to add new entries to the questionnaire. For suggestions, bugs, and other comments on the questionnaire: please file an issue in this GitHub repo [here](https://github.com/soilharmony/wp1-literature-review/issues).
+- The Google Sheet has data validation rules per question type to constrain answer possibilities.
+- There are some completed rows provided as examples, which might help clarify the information needed.
+- Not all questions are mandatory, and not all publications will contain answers to all questions. Mandatory questions are indicated with a _Y_ in row 5 of the spreadsheet. Please be as complete as possible.
+- All data providers need to work together in this Google Sheet. Only continue working in the rows that you started, please don't alter other people's work.
 - You can always continue at a later time, your answers will be saved.
-- Every row (entry) in the questionnaire is meant to represent a single TF or PTF. One publication may contain several TF or PTF, for example:
+- Every row (entry) in the questionnaire is meant to represent a single TF or PTF. One publication may contain several TFs or PTFs, for example:
   - several TFs or PTFs for different soil descriptors
   - several TFs that map different non-reference methods to the same reference method
-  - several TFs for the same soil descriptor in different domains of applicability (eg. stratified TFs by land-use, soil-depth, WRB class, ...)
+  - several TFs for the same soil descriptor in different domains of applicability (e.g. stratified TFs by land use, soil depth, WRB class, ...)
   - several PTFs using different input variables
-  - several candidate TFs or PTFs for the same data (eg. linear regression & machine-learning models)
-  - ... combinations of the above
-  - The format of the questionnaire allows only to report on 1 TF or PTF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication. Do not include review papers in this questionnaire; use review papers only to find original publications that your literature search missed.
-  - When you want to add a new entry (new publication or a new TF or PTF from a publication you did before), go to the bottom and say "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the following format: the name of the corresponding uploaded PDF followed by a sequential entry number, i.e. author_year_entry_number, e.g.: `Taubner_2009_001`, `Szabo_2024_001`. This ensures that other people can identify which entry is yours. 
+  - several candidate TFs or PTFs for the same data (e.g. linear regression & machine learning models)
+  - combinations of the above.
+  - The format of the questionnaire allows reporting on only one TF or PTF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication.
+  - When you want to add a new entry (new publication or a new TF or PTF from a publication you already entered), go to the bottom and select "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the name of the corresponding uploaded paper followed by a sequential entry number, i.e. `type_authors_year_entrynumber`, e.g.: `RP_Kabala_2016_01`, `RP_Roman-Dobarco_etal_2019_01`. This ensures that other people can identify which entry is yours. 
 <img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
 
 - The Google Sheet contains several worksheets:
-  - `generalQ`: General questions about literature, data provider and soil samples used.
-  - `TF_pH`: A first draft of the Step 2 template for transfer functions (TFs), including pH-specific questions and generic modeling questions. This serves as an example of a soil descriptor-specific template that can be adapted to create templates for other descriptors (TF_PSD, TF_BD, TF_OC, TF_CaCO3, TF_Na, TF_K, TF_Ca, TF_Mg, TF_CEC, TF_EC, TF_P, TF_N, TF_HM (heavy metals), TF_WRAC (water retention and air capacity), TF_Ks (saturated hydraulic conductivity)), based on suggestions from WP2 experts. The 1st question on each soildescriptor-specific worksheet should ask for the unique identifier defined in `generalQ` to avoid repeating questions already answered in the `generalQ` worksheet.
-  - `PTF_SHP`: A first draft of the Step 2 template for pedotransfer functions (PTFs), including specific questions on soil hydraulic properties (SHPs), such as the soil water retention curve and saturated hydraulic conductivity, together with generic modeling questions.
-  - `helpersheet-options`: Lists the predifined response options for the questions in the `generalQ`, `TF_pH` and `PTF_SHP` worksheets. Using predefined response options is recommended to ensure consistent data entry and facilitate analysis of the collected information.
+  - `instructions`: Information on how to get help if something is not clear in the table.
+  - `generalQ`: General questions about literature, data provider and soil samples used. 
+  - `helpersheet-options`: Lists the predefined response options for the questions in the `generalQ` worksheet. Using predefined response options is recommended to ensure consistent data entry and facilitate analysis of the collected information.
+
+## The use of the collected literature
+
+The literature review is designed as a two-step process.
+
+### Step 1: General information collection
+
+In Step 1, general information will be collected from published articles and grey literature on TFs and PTFs. This step will support WP1, WP2, WP5 and WP6.
+
+The goal is to provide:
+
+- **Results for WP1**
+  - An inventory of existing TFs and PTFs, documented as MS7 at M9. This milestone serves as a preliminary stocktaking, i.e. a structured compilation of available data without interpretation.
+  - D1.2 at M18, which will provide a comprehensive analysis of the collected material. Beyond synthesis, this deliverable will focus on gap identification and critical assessment.
+- **Input for WP2**
+  - A list of existing and missing TFs and PTFs to help identify gaps that could be addressed during the development of TFs and PTFs.
+- **Input for WP5**
+  - An inventory of existing TFs and PTFs to assess their domain of applicability and potential adjustments in D5.2.
+- **Input for WP6**
+  - A soil TF and PTF database to be deposited in the persistent online repository as D6.1 at M54 and made available to the Soil Health Portal.
+
+### Step 2: Detailed information collection
+
+In Step 2, soil-descriptor-specific methodological information and statistical details will be collected to support the preselection of TFs and PTFs under WP5.
+
+The goal is to provide:
+
+- **Results for WP5**
+  - A report containing the list of preselected existing equivalent methods and TFs/PTFs, with recommendations on their domain of applicability and potential adjustments. This will be delivered as D5.2 at M24.
+  - The selected TFs and PTFs, together with the new ones derived in WP2, will be validated statistically using WP4 samples.
+
+The Step 2 questionnaire will be designed to gather the relevant information from the literature at a later stage.
 
 ## Analysis of the data collected during literature review
 
