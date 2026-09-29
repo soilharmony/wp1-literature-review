@@ -73,8 +73,15 @@ A literature search of online available published articles has been performed by
   - several candidate TFs or PTFs for the same data (e.g. linear regression & machine learning models)
   - combinations of the above.
   - The format of the questionnaire allows reporting on only one TF or PTF at a time. It may therefore be necessary to repeat the questionnaire multiple times for the same publication.
-  - When you want to add a new entry (new publication or a new TF or PTF from a publication you already entered), go to the bottom and select "insert 1 row to the bottom" (like the image below). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the name of the corresponding uploaded paper followed by a sequential entry number, i.e. `type_authors_year_entrynumber`, e.g.: `RP_Kabala_2016_01`, `RP_Roman-Dobarco_etal_2019_01`. This ensures that other people can identify which entry is yours. 
+  - When you want to add a new entry (new publication or a new TF or PTF from a publication you already entered), go to the bottom and select "insert 1 row to the bottom" (Figure 1). This will automatically copy the data validation rules to the new row. First, give your new entry a unique identifier. Please use the name of the corresponding uploaded paper followed by a sequential entry number, i.e. `type_authors_year_entrynumber`, e.g.: `RP_Kabala_2016_01`, `RP_Roman-Dobarco_etal_2019_01`. This ensures that other people can identify which entry is yours. To prevent other people editing the rows you started, please restrict the editing rights like indicated in Figure 2 below.
+
 <img width="992" height="469" alt="image" src="https://github.com/user-attachments/assets/40f115eb-5be2-4eee-b984-fb02b141ebd9" />
+
+_Figure 1: Start a new entry in the questionnaire (google probably displays this in your own language, here in Dutch)._
+
+<img width="800" height="429" alt="image" src="https://github.com/user-attachments/assets/addb4f89-7f49-4e00-9efc-92603fe8aabf" />
+
+_Figure 2: Limit the editing rights to a new row you started (google probably displays this in your own language, here in Dutch)._
 
 - The Google Sheet contains several worksheets:
   - `instructions`: Information on how to get help if something is not clear in the table. If you prefer to work in your own individual google sheet, contact information is available for you to ask for a separate link.
