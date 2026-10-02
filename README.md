@@ -52,7 +52,7 @@ A literature search of online available published articles has been performed by
 - If a paper is not in English, inform leaders of Task 1.2 and Task 1.3 and proceed to the next paper assigned to you.
 - Each partner is responsible for uploading grey literature from their country.
 - The list of measurement methods may not include every method reported in the literature. If the relevant method is not listed, select **“Other.”**
-- Add any comments concerning the literature in column AM.
+- Add any comments concerning the literature in column AL.
 - If you cannot screen your assigned papers because you have a large amount of country-specific grey literature on TFs and PTFs to review, inform leaders of Task 1.2 and Task 1.3.
 - This is the first screening phase. Based on the results, we will assess whether a further literature search is needed.
 
