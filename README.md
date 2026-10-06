@@ -26,7 +26,7 @@ A literature search of online available published articles has been performed by
 
    Does the paper derive a TF or PTF using data from Europe?
 
-   - If yes, mark it as **“New TF/PTF derived using European soil data - Relevant”** in the list of assigned papers and complete the template according to the instructions below.
+   - If yes, mark it as **“New TF/PTF derived using European soil data - Relevant”** in the list of assigned papers and complete the template according to the instructions below. The UNsaturated SOil hydraulic DAtabase (UNSODA) includes European soil data, so papers that derive a PTF using this dataset are also relevant.
    - If not, select one of the following options in the list of assigned papers:
      - **“New TF/PTF derived using soil data from outside Europe - Not relevant at this stage”**
      - **“Review paper - Not relevant”**
