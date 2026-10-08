@@ -28,7 +28,7 @@ A literature search of online available published articles has been performed by
 
    - If yes, mark it as **“New TF/PTF derived using European soil data - Relevant”** in the **“Relevancy”** column of the list of assigned papers and complete the template according to the instructions below.
 
-     International datasets may include European soil data. Therefore, papers that derive a TF or PTF using such datasets are also relevant. Examples include the WEPAL–QUASIMEME International Soil-analytical Exchange Programme (ISE), GLOSOLAN Proficiency Testing datasets, the UNsaturated SOil hydraulic DAtabase (UNSODA), WISE – Global Soil Profile Data, and datasets from the Data and Information System of the International Geosphere-Biosphere Programme (IGBP-DIS).
+     International datasets may include European soil data. Therefore, papers that derive a TF or PTF using such datasets are also relevant. Examples include the WEPAL–QUASIMEME International Soil-analytical Exchange Programme (ISE), GLOSOLAN Proficiency Testing datasets, the UNsaturated SOil hydraulic DAtabase (UNSODA), WoSIS - World Soil Information Service, and datasets from the Data and Information System of the International Geosphere-Biosphere Programme (IGBP-DIS).
    - If no, select one of the following options in the **“Relevancy”** column:
      - **“New TF/PTF derived using soil data from outside Europe - Not relevant at this stage”**
      - **“Review paper - Not relevant”**
