@@ -18,7 +18,7 @@ A literature search of online available published articles has been performed by
 
    Name the uploaded reviewed paper using the following format: document type, authors of the corresponding uploaded PDF, and year of publication, i.e. `type_author_year`.
 
-   Use `RP` for review papers and `GL` for grey literature. For example: `RP_Kabala_etal_2016`, `RP_Roman-Dobarco_etal_2019`, `GL_White_etal_2001`.
+   Use `RP` for peer-reviewed papers and `GL` for grey literature. For example: `RP_Kabala_etal_2016`, `RP_Roman-Dobarco_etal_2019`, `GL_White_etal_2001`.
 
    If a PDF has supplementary material, please upload it as well, either appended to the PDF or as a separate file, e.g. `RP_Roman-Dobarco_etal_2019_SM`.
 
